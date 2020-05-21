@@ -11,12 +11,13 @@ class player:
 
 
 
-rock = pieces(1,"piedra","scissors","paper")
-paper = pieces(2,"papel","rock","scissors")
-scissors = pieces(3,"tijeras","paper","rock")
+rock = pieces(1,"rock","scissors","paper")
+paper = pieces(2,"paper","rock","scissors")
+scissors = pieces(3,"scissors","paper","rock")
 
 pieces_list = {
-    1:rock,
-    2:paper,
-    3:scissors,
+    1:rock.desc,
+    2:paper.desc,
+    3:scissors.desc,
 }
+print(pieces_list[1])
